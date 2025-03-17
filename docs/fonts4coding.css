@@ -1,0 +1,23 @@
+:root {
+  color-scheme: light dark;
+  a:visited {  color: lime;    }
+  a:hover   {  color: hotpink; }
+}
+
+table.fonts4coding {
+    border-width: 1px;
+    border-spacing: 2px;
+    border-style: solid;
+    border-color: gray;
+    border-collapse: separate;
+    nobackground-color: white;
+}
+
+table.fonts4coding td,th {
+    border-width: 1px;
+    padding: 10px;
+    border-style: solid;
+    border-color: gray;
+    no background-color: white;
+    no-moz-border-radius: ;
+}
