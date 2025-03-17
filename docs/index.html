@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Fonts for Coding</title>
+  <link rel="stylesheet" href="fonts4coding.css">
+  <script src="fonts4coding.js"></script>
+</head>
+<body onload="fillTable();">
+  <h1>Fonts comparison</h1>
+  <h3 style="color:red;">You MUST have these fonts installed on YOUR machine to see what they look like</h3>
+  <p>
+  Click on a font name to download it.
+  </p>
+  <table class="fonts4coding" id="showFontsHere"></table>
+  <h2>As a developper, take care to fonts using ligatures</h2>
+  <ul>
+    <li>Yes, fancy (the first days ...)</li>
+    <li>The ligatures are not the same in all fonts supporting ligatures</li>
+    <li>You might be surprised by some pieces of code, regular expression, ascii art in comments...</li>
+    <li>Do the coder, peer-rewiever and readers see the same thing?</li>
+  </ul>
+  <h2>References</h2>
+  <ul>
+  <li>List of 
+    <a href="https://en.wikipedia.org/wiki/List_of_monospaced_typefaces" target="_blank">monospaced</a>
+    fonts on Wikipedia
+  </li>
+  <li>List of monospaced fonts maintained by Google:
+    <a href="https://fonts.google.com/?categoryFilters=Appearance:%2FMonospace%2FMonospace" target="_blank">front-end</a>  
+    <a href="https://github.com/google/fonts" target="_blank">back-end</a> (Classement par licences: "apache" "ofl" "ufl")
+  </li>
+    <li>List of all fonts shipped with
+    <a href="https://learn.microsoft.com/fr-fr/typography/font-list/" target="_blank">Windows</a>
+    since Windows 7
+    </li>
+  </ul>
+  <h2>How to install a font (windows)</h2>
+  <ol>
+    <li>Unzip all the .ttf files in one temporary directory.</li>
+    <li>Select all these .ttf files (Ctrl-A)</li>
+    <li>Right click and select option "Install" -- This will install the font only for the current user.<br/>OR<br/>
+        Right click, select 'Show more options' and select "Install for all users" -- In this case Administrator privileges are required.</li>
+    <li>After installation you can delete the temporary directory</li>
+  </ol>
+  <h2>Notes</h2>
+  <ul>
+    <li>Fonts, like softwares, have versions and receive updates.</li>
+    <li>The '<i>IBM Plex mono</i>' is a subset of the '<i>IBM Plex Sans</i>' font familly. You can find all the fonts
+        <a href="https://github.com/IBM/plex/releases/latest" target="_blank">here</a></li>
+    <li>'<i>JuliaMono</i>' provides some ligatures</li>
+    <li>'<i>Cascadia Code</i>' provides <a href="https://github.com/microsoft/cascadia-code/blob/main/images/ligatures.png">114</a> ligatures</li>
+    <li>'<i>JetBrains Mono</i>' include 142 ligatures (This is far too much)</li>
+    <li>'<i>JetBrains Mono NL</i>' NL means No Ligature.</li>
+    <li>Usually, the 0 is with a dot, not a slash, to avoid confusion with ø and Ø used in Scandinavian languages.</li>
+  </ul>
+</body>
+</html>
